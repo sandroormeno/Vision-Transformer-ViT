@@ -1,6 +1,6 @@
 ## Implementación de Transformers y la visualización de atención
 
-![screen](https://github.com/sandroormeno/Vision-Transformer-ViT/blob/main/images/beans%2028.png){ width=50% }
+![](https://github.com/sandroormeno/Vision-Transformer-ViT/blob/main/images/beans%2028.png){height=400px width=500px}
 
 Para poder valorar la relevancia y usabilidad de estos procedimientos que permiten **visualizar los mecanismos de atención en Transformers**, debemos implementarlos y enfrentarlos a nuestros propios datos. Para ello se nos presenta el siguiente escenario: los modelos basados en Transformers son en principio complejos y requieren gran poder computacional para entrenarlos. Los algoritmos para visualización de mecanismos de atención están diseñados para ciertas arquitecturas. Afortunadamente los modelos que permiten mecanismos de visualización, o que tenemos a nuestro alcance fácilmente, también han sido pre entrenados, lo que nos permite desarrollar transfer learning. En resumen, las pocas arquitecturas disponibles en la actualidad podrán ser reentrenadas para tener una experiencia, en principio, sin una infraestructura potente requerida para entrenar un modelo desde cero.
 
