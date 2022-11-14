@@ -9,6 +9,6 @@ Permítame profundizar más en este aspecto. Para desarrollar transfer learning 
 Estas particularidades son mencionadas como desventajas en la investigación publicada de septiembre del 2022 en [A Survey on Attention Mechanisms for Medical Applications: Are We Moving Toward Better Algorithms?](https://arxiv.org/abs/2204.12406) que he resumido a modo de guía informativa en este post. Esperemos se flexibilicen los procedimientos; pero eso no puede impedir nuestra exploración en este momento, para ello puede encontrar más información y código en este repositorio.
 Para dimensionar la profundidad del problema les presento las tres clases que intervienen:  hojas saludables y dos tipos de enfermedad (Angular Leaf Spot y Bean Rust). Puede encontrar más detalles en su [repositorio](https://github.com/AI-Lab-Makerere/ibean/). 
 
-![screen]('/images/beans class.png')
+![screen](https://github.com/sandroormeno/Vision-Transformer-ViT/blob/main/images/beans%20class.png)
 
 En el ejemplo podemos apreciar claramente la parte oxidada de la hoja además de la representación de la atención, que ubica con alta precisión la zona afectada. Debemos añadir que el modelo está 87% seguro que ha realizado una buena clasificación.   En otras ocasiones la atención aparentemente indica una zona dónde claramente no apreciamos deterioro, o no tenemos la sensibilidad para hacer una discriminación asertiva. Un análisis más exhaustivo requiere, además, de otros profesionales, un enfoque transdisciplinar. Esto resulta ser otra de las conclusiones que sugiere el estudio mencionado más arriba.
