@@ -12,3 +12,5 @@ Para dimensionar la profundidad del problema les presento las tres clases que in
 ![screen](https://github.com/sandroormeno/Vision-Transformer-ViT/blob/main/images/beans%20class.png)
 
 En el ejemplo podemos apreciar claramente la parte oxidada de la hoja además de la representación de la atención, que ubica con alta precisión la zona afectada. Debemos añadir que el modelo está 87% seguro que ha realizado una buena clasificación.   En otras ocasiones la atención aparentemente indica una zona dónde claramente no apreciamos deterioro, o no tenemos la sensibilidad para hacer una discriminación asertiva. Un análisis más exhaustivo requiere, además, de otros profesionales, un enfoque transdisciplinar. Esto resulta ser otra de las conclusiones que sugiere el estudio mencionado más arriba.
+
+![screen](https://github.com/sandroormeno/Vision-Transformer-ViT/blob/main/images/beans.gif)
