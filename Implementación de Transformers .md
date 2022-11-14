@@ -10,7 +10,9 @@ Permítame profundizar más en este aspecto. Para desarrollar transfer learning 
 
 ``` python
 from transformer_explainability_utils.ViT_LRP import deit_tiny_patch16_224 as DeiT_Tiny
+from transformers import DeiTFeatureExtractor
 
+feature_extractor = DeiTFeatureExtractor.from_pretrained("facebook/deit-tiny-patch16-224")
 nr_classes = len(labels.names)
 IMG_SIZE = feature_extractor.size
 URL = "https://dl.fbaipublicfiles.com/deit/deit_tiny_patch16_224-a1311bcf.pth"
