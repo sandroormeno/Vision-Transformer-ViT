@@ -23,7 +23,7 @@ model = DeiT_Tiny(pretrained=True, num_classes=nr_classes , input_size=(3, IMG_S
 model.to(device)
 ```
 
-Estas particularidades son mencionadas como desventajas en la investigación publicada de *septiembre del 2022* en [A Survey on Attention Mechanisms for Medical Applications: Are We Moving Toward Better Algorithms?](https://arxiv.org/abs/2204.12406) que he resumido a modo de guía informativa en este post. Esperemos se flexibilicen los procedimientos; pero eso no puede impedir nuestra exploración en este momento, para ello puede encontrar más información y código en este repositorio.
+Estas particularidades son mencionadas como desventajas en la investigación publicada de *septiembre del 2022* en [A Survey on Attention Mechanisms for Medical Applications: Are We Moving Toward Better Algorithms?](https://arxiv.org/abs/2204.12406) que he resumido a modo de guía informativa en este post. Esperemos se flexibilicen los procedimientos; pero eso no puede impedir nuestra exploración en este momento, para ello puede encontrar más información y [código](https://github.com/sandroormeno/Vision-Transformer-ViT/blob/main/Vision_Transformers_in_PyTorch_deit_tiny_patch16_224__beans_v8.ipynb) en este repositorio.
 
 Para dimensionar la profundidad del problema les presento las tres clases que intervienen:  hojas saludables y dos tipos de enfermedad (Angular Leaf Spot y Bean Rust). Puede encontrar más detalles en su [repositorio](https://github.com/AI-Lab-Makerere/ibean/). 
 
